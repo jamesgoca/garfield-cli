@@ -22,27 +22,16 @@ while True:
 	input_option = raw_input("What would you like to do? ")
 
 	if input_option == "1":
-		url = webbrowser.open("https://ermel.org/garfield.php")
+		garfield.today()
 
 	elif input_option == "2":
 		garfield.yesterday()
 
 	elif input_option == "3":
-		# Get random date between start of comic and today
+		garfield.random()
 
-		start_date = datetime.date(1978, 7, 19)
-		end_date = datetime.date.today()
-
-		# Calculate time between dates
-
-		time_between_dates = end_date - start_date
-		days_between_dates = time_between_dates.days
-		random_number_of_days = random.randrange(days_between_dates)
-		random_date = start_date + datetime.timedelta(days=random_number_of_days)
-
-		url = "https://ermel.org/garfield.php?day={}&month={}&year={}".format(random_date.day, random_date.month, random_date.year)
 	elif input_option == "4":
-		url = "https://ermel.org/garfield.php?day=19&month=06&year=1978"
+		garfield.first()
 
 	elif input_option == "5":
 		break
