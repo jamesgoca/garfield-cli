@@ -20,7 +20,7 @@ Install this project using the following pip command:
 
 To install this project, first clone this repository:
 
-```git clone https://github.com/jamesgallagher432/garfield-cli```
+```git clone https://github.com/jamesgoca/garfield-cli```
 
 Next, navigate into the project folder and install the project using pip:
 
@@ -31,11 +31,11 @@ pip install .
 
 ## Screenshot
 
-![Screenshot of the Garfield CLI](https://github.com/jamesgallagher432/garfield-cli/blob/master/screenshot.png?raw=true)
+![Screenshot of the Garfield CLI](https://github.com/jamesgoca/garfield-cli/blob/master/screenshot.png?raw=true)
 
 ## License
 
-This project is licensed using an MIT license. See more information in [LICENSE.md](https://github.com/jamesgallagher432/garfield-cli/blob/master/LICENSE.md).
+This project is licensed using an MIT license. See more information in [LICENSE.md](https://github.com/jamesgoca/garfield-cli/blob/master/LICENSE.md).
 
 ## Authors
 
