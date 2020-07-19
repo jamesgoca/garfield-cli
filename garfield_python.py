@@ -15,7 +15,8 @@ Garfield on the TERMINAL!
 [2] View yesterday's comic.
 [3] View a random comic.
 [4] View the first strip.
-[5] Exit
+[5] View a comic by date.
+[6] Exit
 """)
 
 while True:
@@ -34,6 +35,12 @@ while True:
 		garfield.first()
 
 	elif input_option == "5":
+		day = raw_input("What is the day of the comic you want to read? ")
+		month = raw_input("What is the month of the comic you want to read? ")
+		year = raw_input("What is the year of the comic you want to read? ")
+		garfield.fetch()
+
+	elif input_option == "6":
 		break
 
 	else:

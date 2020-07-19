@@ -14,7 +14,7 @@ def fetch(day, month, year):
 		url = "https://ermel.org/garfield.php?day={}&month={}&year={}".format(day, month, year)
 		webbrowser.open(url)
 	else:
-		click.echo("This comic does not exist.")
+		print("This comic does not exist.")
 
 def yesterday():
 	yesterday = datetime.date.today() - datetime.timedelta(1)
